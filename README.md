@@ -1,0 +1,1 @@
+# AnalisadorWhatsApp3000
