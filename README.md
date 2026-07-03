@@ -1,6 +1,6 @@
 # Redes de interação em grupos de WhatsApp sobre saúde e emagrecimento
 
-Análise de redes complexas da interação entre usuários de grupos públicos de WhatsApp voltados a saúde e emagrecimento, com foco na disseminação de conteúdo problemático. Projeto da disciplina INF 791 (Redes Complexas) — UFV.
+Análise de redes complexas da interação entre usuários de grupos públicos de WhatsApp voltados a saúde e emagrecimento, com foco na disseminação de conteúdo problemático. Projeto da disciplina INF 791 (Redes Complexas) - UFV.
 
 Autor: Marcos Biscotto de Oliveira
 
@@ -10,14 +10,14 @@ A partir das mensagens coletadas, constrói-se uma rede dirigida e ponderada em 
 
 ## Arquivos
 
-- `wazap_network.py` — construção da rede de proximidade a partir do banco `coleta.db`; expõe `load_network` e `proximity_events`.
-- `analise_estrutura.py` — H1 (mundo pequeno e distribuição de grau), H2 estrutural e H4.
-- `teste_h4.py` — teste de anexação preferencial com controle de atividade.
-- `lexico.py` — medição de prevalência de termos para o léxico de conteúdo.
-- `analise_conteudo.py` — rotulagem de conteúdo e perfis por usuário.
-- `h2_e_h3.py` — H2 de conteúdo e H3.
-- `fazedor_de_figuras.py`, `conteudo_para_figuras.py` — geração das figuras.
-- `build_deck_rc.js` — geração da apresentação (Node.js).
+- `wazap_network.py` - construção da rede de proximidade a partir do banco `coleta.db`; expõe `load_network` e `proximity_events`.
+- `analise_estrutura.py` - H1 (mundo pequeno e distribuição de grau), H2 estrutural e H4.
+- `teste_h4.py` - teste de anexação preferencial com controle de atividade.
+- `lexico.py` - medição de prevalência de termos para o léxico de conteúdo.
+- `analise_conteudo.py` - rotulagem de conteúdo e perfis por usuário.
+- `h2_e_h3.py` - H2 de conteúdo e H3.
+- `fazedor_de_figuras.py`, `conteudo_para_figuras.py` - geração das figuras.
+- `build_deck_rc.js` - geração da apresentação (Node.js).
 
 ## Dependências
 
