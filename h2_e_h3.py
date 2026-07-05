@@ -1,6 +1,6 @@
 import json, numpy as np, networkx as nx, random, warnings
 from scipy.stats import spearmanr, mannwhitneyu
-from wa_network import load_network
+from wazap_network import load_network
 warnings.filterwarnings("ignore")
 
 G,meta=load_network()

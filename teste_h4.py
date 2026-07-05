@@ -1,7 +1,7 @@
 import numpy as np
 from collections import defaultdict
 from scipy.stats import spearmanr
-from wa_network import proximity_events
+from wazap_network import proximity_events
 
 events = proximity_events()
 ts = np.array([e[0] for e in events])

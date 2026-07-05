@@ -1,7 +1,7 @@
 import re, unicodedata, json, random, numpy as np, networkx as nx, warnings
 from collections import defaultdict
 from scipy.stats import spearmanr, mannwhitneyu
-from wa_network import load_network
+from wazap_network import load_network
 warnings.filterwarnings("ignore")
 
 def norm(s):

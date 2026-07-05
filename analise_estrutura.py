@@ -2,7 +2,7 @@ import numpy as np, networkx as nx, math, warnings
 from collections import defaultdict
 from scipy.stats import spearmanr
 import powerlaw
-from wa_network import load_network, proximity_events
+from wazap_network import load_network, proximity_events
 warnings.filterwarnings("ignore")
 
 G, meta = load_network()
